@@ -54,7 +54,7 @@ if __name__ == "__main__":
 		while True:
 			result = system_function.booking(url)
 			print(result)
-			if '成功' in result:
+			if '成功' in str(result):
 				print("选座成功")
 				break
 			print("重试...")
