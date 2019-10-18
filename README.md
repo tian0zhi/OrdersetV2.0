@@ -9,7 +9,7 @@
 
 最后启动程序时最好不要距离抢座时间太远，因为wechatSESS_ID会在一段时间内失效，所以保证你wechatSESS_ID最新。
 
-关于操作太频繁的验证码问题，原作者的GitHub提供的一种解决方案:用百度API来识别https://github.com/luoenen/AI-HUELSeat
+关于操作太频繁的出现图片验证码问题，原作者的GitHub提供的一种解决方案:用百度API来识别https://github.com/luoenen/AI-HUELSeat
 
 我打算用ResNext解决这个问题，目前还在学习中，可能还有更新版本，以后再说！
 
