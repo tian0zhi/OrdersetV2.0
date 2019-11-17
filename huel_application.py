@@ -8,7 +8,6 @@
 # 需修改execjs包中的_external_runtime.py，找到Popen(有两处)，在参数列表中添加encoding='utf-8'，如
 # p = Popen(cmd, stdin=PIPE, stdout=PIPE, stderr=PIPE, cwd=self._cwd, universal_newlines=True,encoding='utf-8')
 # 自行配置execjs node.js
-# 二次开发作者:天志 Q1244517363 
 # GitHub: https://github.com/tian0zhi/Orderseat
 # 2019.09.19
 # 二次修改，增加了对于 所有绑定了学校的 来选座用户 提供了那两个预定座位的选座，理论上对于任何学校都可以。
